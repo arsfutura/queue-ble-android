@@ -1,0 +1,13 @@
+<server-configuration name="Sample App">
+   <service configure="CURRENT_TIME"/>
+   <service configure="LINK_LOSS"/>
+   <service configure="HEART_RATE"/>
+   <service name="Light Switch" uuid="11111111-2222-3333-4444-555555555555">
+      <characteristic name="Enabled" uuid="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" value="00">
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+      </characteristic>
+   </service>
+</server-configuration>
