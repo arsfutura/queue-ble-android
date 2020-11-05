@@ -7,5 +7,5 @@ Sample App for Android BLE blog post
 - Adjust services and characteristics UUIDs in code
 
 ## USAGE
-- Expored XML config file for nRF connect is located in root project directory
+- Exported XML config file for nRF connect is located in root project directory
 - Click RUN button
